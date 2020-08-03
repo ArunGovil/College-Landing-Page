@@ -71,7 +71,7 @@ body {
     width: 20%;
     float: left;
     margin-top: 5px;
-    border-radius: 0.2px;
+    border-radius: 0.2cm;
 }
 @keyframes slider {
 	0% {
@@ -113,7 +113,7 @@ body {
 #notf {
     grid-area: notf;
     background-color: #dde9ff;
-    border-radius: 0.2px;
+    border-radius: 0.2cm;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -126,7 +126,7 @@ body {
 #pmsg {
     grid-area: pmsg;
     background-color: #dde9ff;
-    border-radius: 0.2px;
+    border-radius: 0.2cm;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -216,7 +216,6 @@ body {
     color: #051a47;
 }
 .container2 {
-    border-radius: 0.2cm;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -226,7 +225,7 @@ body {
 #cimg11 {
     grid-area: cimg11;
     background: #dde9ff;
-    border-radius: inherit;
+    border-radius: 0.2cm;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -234,10 +233,13 @@ body {
     text-decoration: none;
     color: #051a47;
 }
+#cimg11 a h4 {
+    margin-left: 10px;
+}
 #cimg12 {
     grid-area: cimg12;
     background: #dde9ff;
-    border-radius: inherit;
+    border-radius: 0.2cm;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -245,10 +247,13 @@ body {
     text-decoration: none;
     color: #051a47;
 }
+#cimg12 a h4 {
+    margin-left: 10px;
+}
 #cimg13 {
     grid-area: cimg13;
     background: #dde9ff;
-    border-radius: inherit;
+    border-radius: 0.2cm;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
@@ -257,8 +262,11 @@ body {
     text-decoration: none;
     color: #051a47;
 }
+#cimg13 a h4 {
+    margin-left: 10px;
+}
 .container2 img {
-    border-radius: 0.2cm;
+    border-radius: 0.2cm 0.2cm 0cm 0cm;
     width: 100%;
     height: auto;
 }
