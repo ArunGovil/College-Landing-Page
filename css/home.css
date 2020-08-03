@@ -120,7 +120,7 @@ body {
 #notf h4 {
     text-align: center;
 }
-#notf p {
+#notf ul li {
     margin-left: 10px;
 }
 #pmsg {
@@ -133,7 +133,7 @@ body {
 #pmsg h4 {
     text-align: center;
 }
-#pmsg p {
+#pmsg ul li {
     margin-left: 10px;
 }
 @media only screen and (max-width: 550px) {
