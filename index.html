@@ -183,10 +183,19 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
         $('.container2').slick({
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
+    mobileFirst:true,        
     autoplaySpeed: 2000,
+    responsive: [{
+    breakpoint: 550,
+    settings: {
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      centerMode: false,
+    }
+  }]        
   });
   </script>
 
